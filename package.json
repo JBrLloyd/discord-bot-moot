@@ -1,0 +1,42 @@
+{
+  "name": "wot-a-bot",
+  "version": "0.1.0",
+  "main": "main.ts",
+  "author": "Jackson Lloyd",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "start": "ts-node main.ts",
+    "start:dev": "set NODE_ENV=local && ts-node main.ts",
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "inversify": "^5.1.1",
+    "reflect-metadata": "^0.1.13",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "@types/ws": "^7.4.4",
+    "browser-resolve": "^1.11.2",
+    "browserify": "latest",
+    "chai": "^4.3.4",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-sourcemaps": "latest",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7",
+    "nyc": "^15.1.0",
+    "snyk": "^1.616.0",
+    "ts-node": "^10.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.2"
+  }
+}

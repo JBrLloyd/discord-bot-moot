@@ -1,2 +1,1 @@
-# discord-bot-mootah
-A Node Discord Bot
+# Moot The Discord Bot
